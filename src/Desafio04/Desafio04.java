@@ -8,7 +8,8 @@ public class Desafio04 {
 
         int n = ler.nextInt();
         int i;
-        for(i = 0; i > n; i++){
+        
+        for(i = 0; i < n; i++){
             String frase = lerLinha(ler);
             StringBuilder p1 = new StringBuilder(frase.substring(0, frase.length() / 2));
             StringBuilder p2 = new StringBuilder(frase.substring(frase.length() / 2, frase.length()));
