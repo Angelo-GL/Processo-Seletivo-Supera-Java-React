@@ -1,7 +1,6 @@
 package Desafio01;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Scanner;
 
 public class Desafio01 {
@@ -11,6 +10,8 @@ public class Desafio01 {
     public Desafio01(){
        
        int i, j, temp, valor;
+       System.out.println("*** Valores de Entrada ***");
+
        Scanner ler = new Scanner(System.in);
        this.n = ler.nextInt();
        this.vet = new int [this.n];
@@ -58,8 +59,12 @@ public class Desafio01 {
         }
         
         for(i = 0 ; i < numImpar; i++){
-
             this.vet[i+numPar] = vetAuxImpar[i];
+        }
+
+        System.out.println("*** Valores de Saída ***");
+        for(int num: this.vet){
+            System.out.println(num);
         }
 
         ler.close();
@@ -86,9 +91,4 @@ public class Desafio01 {
          return cont;
      }
 
-     public void getVetor(){
-        for(int num: this.vet){
-            System.out.println(num);
-        }
-     }
 }

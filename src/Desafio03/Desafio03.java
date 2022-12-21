@@ -8,6 +8,7 @@ public class Desafio03 {
 
         int i, n, k, l, cont =0, j = 0 ;
         
+        System.out.println("*** Valores de entrada (n, k e arr) ***");
         n = ler.nextInt();
         k = ler.nextInt();
 
@@ -26,7 +27,9 @@ public class Desafio03 {
             }
         }
 
-        System.out.println("**** " + cont + " *****");
+        System.out.println("*** Valor de Saída ***");
+        System.out.println(cont);
+        ler.close();
 
     }
 }

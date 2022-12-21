@@ -11,7 +11,8 @@ public class Desafio02 {
     public Desafio02 (){
         Locale.setDefault(Locale.US);
         Scanner ler = new Scanner(System.in);
-
+        
+        System.out.println("*** Valor de Entrada ***");
         this.valorEntrada = ler.nextDouble();
         int valor = 0;
 
