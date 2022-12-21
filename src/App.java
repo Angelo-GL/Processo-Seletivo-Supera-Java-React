@@ -2,6 +2,7 @@
 
 import Desafio01.Desafio01;
 import Desafio02.Desafio02;
+import Desafio04.Desafio04;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -11,8 +12,14 @@ public class App {
         //d1.getVetor();
 
         System.out.println("*****Desafio 02*****");
-        Desafio02 d2 = new Desafio02();
+        //Desafio02 d2 = new Desafio02();
+
+        System.out.println("*****Desafio 04*****");
+        Desafio04 d4 = new Desafio04();
+
+
         
+
         
     }
 }
