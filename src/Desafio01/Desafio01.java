@@ -61,12 +61,8 @@ public class Desafio01 {
 
             this.vet[i+numPar] = vetAuxImpar[i];
         }
-        
 
-
-
-
-
+        ler.close();
     }
 
     
@@ -95,8 +91,4 @@ public class Desafio01 {
             System.out.println(num);
         }
      }
-
-   
-    
- 
 }

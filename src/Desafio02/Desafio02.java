@@ -68,5 +68,7 @@ public class Desafio02 {
         System.out.printf("%d moeda(s) de R$ 0.01%n", valor);
         this.valorEntrada = this.valorEntrada % 1.0;
 
+        ler.close();
+
     }
 }
